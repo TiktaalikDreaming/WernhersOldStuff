@@ -1,7 +1,8 @@
 SPACEDOCK.INFO hosted mod
 https://spacedock.info/mod/42/
 https://zer0kerbal.github.io/WernhersOldStuff/
-http://forum.kerbalspaceprogram.com/index.php?/topic/127413-*
+http://forum.kerbalspaceprogram.com/index.php?/topic/207233-*
+original: http://forum.kerbalspaceprogram.com/index.php?/topic/127413-*
 
 This mod is uploaded to http://spacedock.info as a primary source.  If you downloaded this mod from another source, be aware it may be out of date.  I highly recommend redownloading from spacedock as a guaranteed original file and updating any saved links/favourites/bookmarks you may have.
 NOTE: CKAN is basically a list of where to get mods and a tool for doing so, so it should usually collect mods from their original sources, and, although it's not guaranteed to be up to date, is usually.  It's also highly recommended for simplifying install.
