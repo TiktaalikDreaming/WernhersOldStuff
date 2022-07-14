@@ -10,6 +10,28 @@
 | spacedock  | (https://spacedock.info/mod/42)                               |
 | ckan       | WernhersOldStuff                                              |
 
+## Version 1.9.99.0-adoption `<EDITION>` edition
+
+### docs/
+
+* Update
+* Add
+  * [Attribution.md] v1.0.6.0
+  * [ManualInstallation.md] v1.1.7.0
+  * [404-petunia.md]
+  * [404.md] v1.0.3.1
+  * [Disclaimer.md] v1.0.0.0
+  * [HowItWorks.md] v1.1.0.0
+  * [LegalMumboJumbo.md] v1.0.5.0
+  * [Localizations.md] v1.1.3.1
+  * [Marketing.md] v1.0.0.0
+  * [Notices.md] v1.0.0.0
+  * [Part-Catelog.md] v1.1.4.0
+  * [resourceFlow.md] v1.0.1.0
+  * [Why-not.md]
+  * [Why.md] v1.1.0.0
+  * [_config.yml]
+
 ## Version 0.19.210115 for Kerbal Space Program 1.11.0
 
 Released on 2021-01-14
