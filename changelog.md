@@ -32,6 +32,16 @@
   * [Why.md] v1.1.0.0
   * [_config.yml]
 
+### Localization
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.1.0
+    * [quickstart.md] v1.0.1.0
+* Updates # - Localization Master
+* Closes # - Localization - English (United States)] <en-us.cfg>
+
 ## Version 0.19.210115 for Kerbal Space Program 1.11.0
 
 Released on 2021-01-14
