@@ -20,7 +20,7 @@ Old rocket parts from the dawn of the rocket age, back during kerbals Komplete K
 
 adopted with *express* permission and brought to you by *KerbSimpleCo*
 
-<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/img/HeroLogo_1920x1920.png" alt="WernhersOldStuff Hero" width="72%" height="72%">
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/img/HeroLogo_1920x1920.jpg" alt="WernhersOldStuff Hero" width="72%" height="72%">
 
 ### Preamble by [`TiktaalikDreaming`][tiktaalikdreaming]
 
