@@ -60,7 +60,6 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 > * Compatibility patches
 > * Contracts for these glorious parts
 > * Variant Textures
-> * Converting from FireSpitter to Stock and/or KSPWheel  
 > * Model updates to Unity 2019
 > * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
 
@@ -93,21 +92,21 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 * [Kerbal Space Program][KSP:url] [![Kerbal Space Program][KSP:shd]][KSP:url] [^2]
 
+### Suggests
+
+* [On Demand Fuel Cells (ODFC)][ODFC]
+* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
+* [TweakScale][twk]
+
 ### Supports
 
 * Either [^3]
   * [Module Manager][mm]
   * [Module Manager /L][mml]
 
-* [On Demand Fuel Cells (ODFC)][ODFC]
-* [Firespitter][fs] for fully functioning wheels. may invoke bouts of dizziness.
-* [NEAR-FAR][far]
-* [Restock][restock]
-* [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
-
 ### Tags
 
-parts, config
+parts, config, flags, agency
 
 <div style="border:0.5px solid Tomato; background-color: #BADA55; color: #FF0000; text-align:center">
   <p><b>red box below is a link to forum post on how to get support</b></p>
@@ -118,21 +117,8 @@ parts, config
 
 ### Credits and Special Thanks
 
-* [DaMichel][damichel] for creating this glorious parts addon!
-* [`Bezzier`][bezzier] for the picking up where [DaMichel][damichel] left off
+* [`TiktaalikDreaming`][tiktaalikdreaming] for creating this glorious parts addon!
 * see [Attribution.md][MOD:attr] for more comprehensive list
-
-<details>
-  <summary>Credits and Special Thanks</summary>
-  <summary>see [Attribution.md][MOD:attr] for more comprehensive list</summary>
-  <ul>
-	<li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/173506-overkill13/">overkill13</a> for massive amount of testing and suggestions </li>
-    <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/201212-kawaiilucy/">KawaiiLucy</a> for Restock whitelist </li>
-	<li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/102159-sage-sagan/">Sage Sagan</a> for creating this mod </li>
-	<li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/42741-blackheart612/">Blackheart612</a> texture and logo work </li>
-	<li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/103696-tiktaalikdreaming/">TiktaalikDreaming</a> models and other things </li>
-	</ul>
-</details>
 
 ### Legal Mumbo Jumbo (License *provenance*)
 
@@ -148,9 +134,9 @@ parts, config
 
 ##### see [Notices.md][MOD:notic] for more *legal mumbo jumbo*
 
-#### Original (0) - Author: [`Sage Sagan`][sagesagan]
+#### Original (0) - Author: [`TiktaalikDreaming`][tiktaalikdreaming]
 
-> Forum: [Thread][MOD:0:thread] - Download: [Dropbox][MOD:0:dnload] - Source: [Dropbox][MOD:0:source]  
+> Forum: [Thread][MOD:0:thread] - Download: [SpaceDock][MOD:0:dnload] - Source: [GitHub][MOD:0:source]  
 > License: [![License][LIC:0:shd]][LIC:0:url] ![License][LIC:0:log]
 
 ---
@@ -164,7 +150,7 @@ parts, config
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/changelog.md  "Changelog"
 [MOD:contr]: https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md "Contributing"
 [MOD:discu]: https://github.com/zer0Kerbal/WernhersOldStuff/discussions "Discussions"
-[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/192742-*/ "WernhersOldStuff Forum Thread"
+[MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/ "WernhersOldStuff Forum Thread"
 [MOD:issue]: https://github.com/zer0Kerbal/WernhersOldStuff/issues "Issues"
 [MOD:licns]: https://github.com/zer0Kerbal/WernhersOldStuff/blob/master/LICENSE "Github License"
 [MOD:markt]: https://zer0kerbal.github.io/WernhersOldStuff/Marketing "Marketing Slicks"
@@ -175,57 +161,21 @@ parts, config
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/mod.json
 
-[CODE:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/code.json
-
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
-[MOD:0:source]: https://www.dropbox.com/s/85og3xdhark7com/WernhersOldStuff5.rar?dl=0 "Dropbox"
-[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/64520-*/ "KSP Forum"
-[MOD:0:dnload]: https://www.dropbox.com/s/85og3xdhark7com/WernhersOldStuff5.rar?dl=0 "Dropbox"
+[MOD:0:source]: https://github.com/TiktaalikDreaming/WernhersOldStuff "GitHub"
+[MOD:0:thread]: https://forum.kerbalspaceprogram.com/index.php?/topic/127413-*/ "KSP Forum"
+[MOD:0:dnload]: https://spacedock.info/mod/42 "SpaceDock"
 
 <!--- license provenance -->
-[LIC:0:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
-[LIC:0:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
-[LIC:0:shd]: https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-NC-SA 4.0"
+[LIC:0:url]: https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0"
+[LIC:0:log]: https://licensebuttons.net/i/l/by-sa/transparent/33/66/99/76x22.png "CC BY-SA 4.0"
+[LIC:0:shd]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-ef9421?labelColor=black&style=plastic&logoColor=ef9421&logo=creativecommons "CC BY-SA 4.0"
 
-[LIC:url]: https://creativecommons.org/licenses/by-nc-sa/4.0/ "CC BY-NC-SA 4.0"
-[LIC:log]: https://licensebuttons.net/i/l/by-nc-sa/transparent/33/66/99/76x22.png "CC BY-NC-SA 4.0"
-[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/license.json "CC BY-NC-SA 4.0"
-
-<!--- GPLv2
-[LIC:0:url]: https://www.gnu.org/licenses/gpl-2.0-standalone.html "GPLv2"  
-[LIC:0:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv2"
-[LIC:0:shd]:  https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/license.json
-https://img.shields.io/badge/License-GPLv2-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv2"
--->
-
-<!--- GPLv3
-[LIC:url]: https://www.gnu.org/licenses/gpl-3.0-standalone.html "GPLv3"  
-[LIC:log]: https://i.postimg.cc/9FrwMgK6/GPL-17x17.png "GPLv3"
-[LIC:shd]:  https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/license.json
-https://img.shields.io/badge/License-GPLv3-A42E2B?style=plastic&labelColor=white&logoColor=A42E2B&logo=gnu "GPLv3"
-
-[LIC:0:url]: http://www.wtfpl.net/about/ "WTFPL"
-[LIC:0:log]: http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png "WTFPL"
-[LIC:0:shd]: https://img.shields.io/badge/License-WTFPL-white?style=plastic&labelColor=purple "WTFPL"
--->
-
-<!-- All Rights Reserved
-[LIC:1:url]: https://en.wikipedia.org/wiki/All_rights_reserved "All Rights Reserved"
-[LIC:1:shd]: https://img.shields.io/badge/License-All%20Rights%20Reserved-white?labelColor=black&style=plastic "All Rights Reserved" -->
-
-<!-- Expat/MIT
-https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor=3DA639&logo=OpenSourceInitiative&style=plastic "Expat-MIT" -->
-
-<!--- SimpleBSD-2-Clause
-[LIC:0:url]: https://choosealicense.com/licenses/bsd-2-clause/ "SimpleBSD-2-Clause"
-[LIC:0:shd]: https://img.shields.io/badge/License-BSD--2--Clause-AB2B28?labelColor=white&style=plastic&logoColor=AB2B28&logo=FreeBSD "SimpleBSD-2-Clause"
--->
-
-<!--- AVC -->
-[AVC:shd]: https://img.shields.io/badge/KSP-AVC--supported-00C961.svg?labelColor=black&style=plastic
-[AVCVLD:shd]: https://github.com/zer0Kerbal/WernhersOldStuff/workflows/Validate%20AVC%20.version%20files/badge.svg?labelColor=black&style=plastic "AVC-Valid - thank you to DasSkelett"
+[LIC:url]: https://creativecommons.org/licenses/by-sa/4.0/ "CC BY-SA 4.0"
+[LIC:log]: https://licensebuttons.net/i/l/by-sa/transparent/33/66/99/76x22.png "CC BY-SA 4.0"
+[LIC:shd]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/license.json "CC BY-SA 4.0"
 
 <!--- CKAN -->
 [CKAN:img]: https://i.postimg.cc/x8XSVg4R/sj507JC.png "CKAN"
@@ -239,7 +189,7 @@ https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor
 [GITHUB:url]: https://github.com/zer0Kerbal/WernhersOldStuff/ "GitHub"
 [GITHUB:shd]: https://img.shields.io/badge/Github-Link-CCFF00.svg?labelColor=181717&style=plastic&logo=github "GitHub"
 
-[SPCDCK:url]: http://spacedock.info/mod/2379 "SpaceDock"
+[SPCDCK:url]: http://spacedock.info/mod/42 "SpaceDock"
 [SPCDCK:shd]:  https://img.shields.io/badge/SpaceDock-Link-CCFF00.svg?labelColor=181717&style=plastic&logo=data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MDAgNTAwOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+Cgkuc3Qwe2ZpbGw6IzFBMUExQTt9Cgkuc3Qxe2ZpbGw6IzA1Nzg5Mzt9Cgkuc3Qye2ZpbGw6IzA3QUNEMjt9Cjwvc3R5bGU+CjxwYXRoIGlkPSJYTUxJRF8xXyIgY2xhc3M9InN0MCIgZD0iTTQwMCwwLjZIMTAwYy01NSwwLTEwMCw0NS0xMDAsMTAwVjQwMGMwLDU1LDQ1LDEwMCwxMDAsMTAwaDMwMGM1NSwwLDEwMC00NSwxMDAtMTAwVjEwMC42CglDNTAwLDQ1LjYsNDU1LDAuNiw0MDAsMC42eiIvPgo8ZyBpZD0iWE1MSURfNl8iPgoJPGcgaWQ9IlhNTElEXzlfIj4KCQk8cGF0aCBpZD0iWE1MSURfMTdfIiBjbGFzcz0ic3QxIiBkPSJNMTgzLjMsMTY1LjljNi40LTMuNiwxNi45LTMuNiwyMy4zLDBMNDY3LjQsMzE0YzYuNCwzLjYsNi40LDkuNiwwLDEzLjJMMjA2LjYsNDc0LjQKCQkJYy02LjQsMy42LTE3LjcsNi42LTI1LDYuNmgtNDQuOGMtNy40LDAtOC4xLTMtMS43LTYuNmwyNjEtMTQ3LjJjNi40LTMuNiw2LjQtOS42LDAtMTMuMkwxNzEsMTg2Yy02LjQtMy42LTYuNC05LjYsMC0xMy4yCgkJCUwxODMuMywxNjUuOXoiLz4KCTwvZz4KCTxnIGlkPSJYTUxJRF84XyI+CgkJPHBhdGggaWQ9IlhNTElEXzE2XyIgY2xhc3M9InN0MiIgZD0iTTMxOC44LDE5Yy03LjQsMC0xOC42LDIuOC0yNSw2LjRMMzMsMTczLjRjLTYuNCwzLjYtNi40LDkuNSwwLDEzLjFsMjYwLjcsMTQ3LjEKCQkJYzYuNCwzLjYsMTYuOSwzLjYsMjMuMywwbDEyLjMtN2M2LjQtMy42LDYuNC05LjUsMC0xMy4ybC0yMjUuMS0xMjdjLTYuNC0zLjYtNi40LTkuNSwwLTEzLjJMMzY1LjYsMjUuNGM2LjQtMy42LDUuNi02LjQtMS43LTYuNAoJCQlIMzE4Ljh6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==  "SpaceDock"
 
 <!-- Kerbal Space Program -->
@@ -248,19 +198,10 @@ https://img.shields.io/badge/License-Expat/MIT-3DA639?labelColor=black&logoColor
 
 <!-- links to add-ons/mods -->  
 [ODFC]: https://forum.kerbalspaceprogram.com/index.php?/topic/187625-*/ "On Demand Fuel Cells"
-[fs]: https://github.com/snjo/Firespitter/ "Firespitter"
 [mm]: https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/ "Module Manager"
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
-[far]: https://forum.kerbalspaceprogram.com/index.php?/topic/179445-*/ "FAR"
-[restock]: https://forum.kerbalspaceprogram.com/index.php?/topic/182679-*/ "Restock"
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
-[atp]: https://forum.kerbalspaceprogram.com/index.php?/topic/138433-*/ "JSI Advanced Transparent Pods"
-[b9ps]: https://forum.kerbalspaceprogram.com/index.php?/topic/140541-*/ "B9 Part Switch"
-[kas]: http://forum.kerbalspaceprogram.com/index.php?/topic/142594-*/ "Kerbal Attachment System"
-[kis]: http://forum.kerbalspaceprogram.com/index.php?/topic/149848-*/ "Kerbal Inventory System"
-[kjr]: https://forum.kerbalspaceprogram.com/index.php?/topic/184206-*/ "Kerbal Joint Reinforcement-Next"
-[kurs]: https://github.com/linuxgurugamer/DockingCam "KURS style docking camera"
 [mas]:  https://forum.kerbalspaceprogram.com/index.php?/topic/160856-*/ "MOARdV's Avionics System"
 [rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*/ "Raster Prop Monitor"
 
