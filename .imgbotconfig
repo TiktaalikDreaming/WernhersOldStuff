@@ -1,0 +1,22 @@
+{
+    "schedule": "weekly",
+    "ignoredFiles": [
+        "GameData/*",
+        "GameData/**",
+        "docs/LegalMumboJumbo/*",
+        "GameData/WernhersOldStuff/Parts/@thumbs/*",
+        "GameData/WernhersOldStuff/Parts/@thumbs/*",
+        "source/*",
+	"**/configs/**",
+	"**/Props/**",
+	"**/VintageDials/**",
+	"**/FX/**",
+        "**/Assets/**",
+        "**/Flags/**",
+        "**/Agencies/**",
+        "**/@thumbs/**"
+    ],
+    "aggressiveCompression": "false",
+    "compressWiki": "true",
+    "minKBReduced": 500
+}
