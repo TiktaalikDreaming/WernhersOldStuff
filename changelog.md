@@ -22,6 +22,8 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
 
+Release has been reduced by 0.86mb.
+
 ### Parts
 
 * Update
