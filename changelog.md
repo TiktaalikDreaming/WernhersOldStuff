@@ -21,8 +21,11 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 * Update
   * [A4parachute.cfg] v1.0.0.0
+  * [AgSrfparachute.cfg] v1.0.0.0
   * [A10toA4Decoupler.cfg] v1.0.0.0
-  * [A10toA6Decoupler] v1.0.0.0
+  * [A10toA6Decoupler.cfg] v1.0.0.0
+  * [A11toA10Decoupler.cfg] v1.0.0.0
+  * [A10-FuelTanks.cfg] v1.0.0.0
 
 
 ### Assets
@@ -30,6 +33,9 @@ Each (pre)release will update some of the parts and patches so this addon can be
 * [MonoEngineNozzle.dds]
   * removed duplicate (341kb)
 * [RedstoneA6-NAA75-110Turbine.dds]
+  * removed duplicate (1.33mb)
+  * removed duplicate (1.33mb)
+* [A-4Chute.dds]
   * removed duplicate (1.33mb)
 
 
