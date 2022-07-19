@@ -27,6 +27,7 @@ Each (pre)release will update some of the parts and patches so this addon can be
   * [A11toA10Decoupler.cfg] -> [wos-decoupler-A11toA10.cfg] v1.0.0.0
   * [A10-FuelTanks.cfg] -> [wos-A10-tank-dual] v1.0.0.0
   * [A-10StarterTank] -> [wos-A10-tank-starter] v1.0.0.0
+  * [A-12FuelTank.cfg] -> [wos-A12-tank.cfg] v1.0.0.0
 
 
 ### Assets
@@ -40,6 +41,11 @@ Each (pre)release will update some of the parts and patches so this addon can be
   * removed duplicate (1.33mb)
 * [A-10EngineVaneFrame.dds]
   * removed duplicate (1.33mb)
+
+* FX
+  * Removed duplicates
+    * [Circular.tga] (7.6kb)
+    * [particles.tga] (11.5kb)
 
 
 ### Configs
