@@ -49,6 +49,14 @@ Each (pre)release will update some of the parts and patches so this addon can be
 * [CamScreen.cfg] WOS_Cam
   * missing closing brace `}`
 
+### Agents
+
+* add description to [WernhersOldStuff.agent]
+
+### Flags
+
+* relocate flags from Agencies/ to Flags/
+
 ### docs/
 
 * Add
