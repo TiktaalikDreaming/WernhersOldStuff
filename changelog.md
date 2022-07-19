@@ -62,6 +62,7 @@ Each (pre)release will update some of the parts and patches so this addon can be
 ### Flags
 
 * relocate flags from Agencies/ to Flags/
+* resize from 256x160 to 512x320
 
 ### docs/
 
