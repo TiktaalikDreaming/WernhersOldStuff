@@ -10,6 +10,91 @@
 | spacedock  | (https://spacedock.info/mod/42)                               |
 | ckan       | WernhersOldStuff                                              |
 
+## Version 1.9.99.1-prerelease `<2nd First Steps>` edition
+
+* 19 Jul 2022  
+* Release for Kerbal Space Program [KSP 1.12.x]
+
+### Summary
+
+This is the first in a series of updates to this addon.
+Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
+
+ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
+
+This Release has been reduced by 0.86mb by removing duplicate files.
+
+### Parts
+
+* Update
+  * File and Part names
+    * [A4parachute.cfg] -> [wos-parachute-A4.cfg] v1.0.0.0
+  * Categories
+* Add
+  * [DRAG_CUBE]
+  * @thumbs/
+* updates #31 - Rename
+* updates #36 - Add part thumbs
+
+### Assets
+
+* Move and Organization 🎨 📁
+  * change mesh = to MODEL
+  * relocate models and textures to /Assets/
+    * internal pointers
+    * naming
+* Remove duplicate textures
+  * [MonoEngineNozzle.dds]
+    * removed duplicate (341kb)
+  * [RedstoneA6-NAA75-110Turbine.dds]
+    * removed duplicate (1.33mb)
+    * removed duplicate (1.33mb)
+  * [A-4Chute.dds]
+    * removed duplicate (1.33mb)
+  * [A-10EngineVaneFrame.dds]
+    * removed duplicate (1.33mb)
+* FX
+  * Removed duplicates
+    * [Circular.tga] (7.6kb)
+    * [particles.tga] (11.5kb)
+* Category Icons
+  * move to SimpleIcons/
+* updates #32 - Assets move and organization 🎨 📁
+
+### Configs
+
+### Compatibility
+
+
+### Props
+
+### Agents
+
+* add description to [WernhersOldStuff.agent]
+
+### docs/
+
+* Add
+  * [Part-Catelog.md] v1.1.4.0
+
+### Localization
+
+* Create
+  * Localization/
+    * <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* updates #12 - Localization Master
+* updates #13 - Localization - English <en-us.cfg>
+* updates #30 - Part Localization
+
+### Status 1.9.99.1
+
+* Issues
+
+
+---
+
 ## Version 1.9.99.0-adoption `<First Steps>` edition
 
 * 19 Jul 2022  
@@ -22,7 +107,7 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
 
-Release has been reduced by 0.86mb.
+This Release has been reduced by 0.86mb by removing duplicate files.
 
 ### Parts
 
