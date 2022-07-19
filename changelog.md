@@ -19,17 +19,27 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 ### Configs
 
-* Split
-  * from [RealismOverhaulWernhers.cfg] v1.1.0.0
-    * to Resources/[ResourcesGeneric.cfg] v1.0.0.0
-    * to Compatibility/[AdvancedJetEngine.cfg] v1.0.0.0
-* Update
-  * [RealismOverhaulWernhers.cfg] v1.1.0.0
-    * :NEEDS[RealismOverhaul] to :NEEDS[RealismOverhaul]:FOR[WernhersOldStuff]
+* Create
+  * Resources/[ResourcesGeneric.cfg] v1.0.0.0
 
-* @PART[Wing4A10]:NEEDS[RealismOverhaul]
-  * missing {}
-  * !MODULE[ModuleRCS] {}
+### Compatibility
+
+* Create
+  * [AdvancedJetEngine.cfg] v1.0.0.0
+* Rename
+  * [RealismOverhaulWernhers.cfg] to [RealismOverhaul.cfg]
+  * move to Compatiblity/
+* [RealismOverhaul.cfg] v1.1.0.0
+  * Split
+    * to Resources/[ResourcesGeneric.cfg]
+    * to Compatibility/[AdvancedJetEngine.cfg]
+  * Add
+      * FOR[WernhersOldStuff]
+  * Update
+    * @PART[Wing4A10]:NEEDS[RealismOverhaul]
+      * missing {}
+      * !MODULE[ModuleRCS] {}
+
 
 ### docs/
 
