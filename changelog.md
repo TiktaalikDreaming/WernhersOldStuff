@@ -20,12 +20,13 @@ Each (pre)release will update some of the parts and patches so this addon can be
 ### Parts
 
 * Update
-  * [A4parachute.cfg] v1.0.0.0
-  * [AgSrfparachute.cfg] v1.0.0.0
-  * [A10toA4Decoupler.cfg] v1.0.0.0
-  * [A10toA6Decoupler.cfg] v1.0.0.0
-  * [A11toA10Decoupler.cfg] v1.0.0.0
-  * [A10-FuelTanks.cfg] v1.0.0.0
+  * [A4parachute.cfg] -> [wos-parachute-A4.cfg] v1.0.0.0
+  * [AgSrfparachute.cfg] -> [wos-parachute-srf.cfg]v1.0.0.0
+  * [A10toA4Decoupler.cfg] -> [wos-decoupler-A10toA4.cfg] v1.0.0.0
+  * [A10toA6Decoupler.cfg] -> [wos-decoupler-A10toA6.cfg] v1.0.0.0
+  * [A11toA10Decoupler.cfg] -> [wos-decoupler-A11toA10.cfg] v1.0.0.0
+  * [A10-FuelTanks.cfg] -> [wos-A10-tank-dual] v1.0.0.0
+  * [A-10StarterTank] -> [wos-A10-tank-starter] v1.0.0.0
 
 
 ### Assets
@@ -36,6 +37,8 @@ Each (pre)release will update some of the parts and patches so this addon can be
   * removed duplicate (1.33mb)
   * removed duplicate (1.33mb)
 * [A-4Chute.dds]
+  * removed duplicate (1.33mb)
+* [A-10EngineVaneFrame.dds]
   * removed duplicate (1.33mb)
 
 
