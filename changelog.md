@@ -107,8 +107,8 @@ Each (pre)release will update some of the parts and patches so this addon can be
 * Create
   * Localization/
     * <en-us.cfg>
-    * [readme.md] v2.1.1.0
-    * [quickstart.md] v1.0.1.0
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
 * Updates # - Localization Master
 * Closes # - Localization - English (United States)] <en-us.cfg>
 
