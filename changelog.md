@@ -12,10 +12,15 @@
 
 ## Version 1.9.99.0-adoption `<First Steps>` edition
 
+* 19 Jul 2022  
+* Release for Kerbal Space Program [KSP 1.12.x]
+
 ### Summary
 
 This is the first in a series of updates to this addon.
 Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
+
+ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
 
 ### Parts
 
@@ -147,7 +152,6 @@ Each (pre)release will update some of the parts and patches so this addon can be
   * closes #9 - 1.9.99.0 Verify Legal Mumbo Jumbo
   * closes #10 - 1.9.99.0 Update Documentation
   * closes #11 - 1.9.99.0 Social Media
-
 
 ---
 
