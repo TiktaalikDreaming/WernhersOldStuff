@@ -29,7 +29,6 @@ Each (pre)release will update some of the parts and patches so this addon can be
   * [A-10StarterTank] -> [wos-A10-tank-starter] v1.0.0.0
   * [A-12FuelTank.cfg] -> [wos-A12-tank.cfg] v1.0.0.0
 
-
 ### Assets
 
 * [MonoEngineNozzle.dds]
@@ -68,7 +67,7 @@ Each (pre)release will update some of the parts and patches so this addon can be
     * to Resources/[ResourcesGeneric.cfg]
     * to Compatibility/[AdvancedJetEngine.cfg]
   * Add
-      * FOR[WernhersOldStuff]
+    * FOR[WernhersOldStuff]
   * Update
     * @PART[Wing4A10]:NEEDS[RealismOverhaul]
       * missing {}
@@ -120,6 +119,8 @@ Each (pre)release will update some of the parts and patches so this addon can be
     * [quickstart.md] v1.0.1.1
 * Updates # - Localization Master
 * Closes # - Localization - English (United States)] <en-us.cfg>
+
+"KSP_VERSION_MAX" :
 
 ### Status 1.9.99.0
 
