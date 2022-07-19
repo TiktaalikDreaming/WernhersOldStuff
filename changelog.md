@@ -10,46 +10,148 @@
 | spacedock  | (https://spacedock.info/mod/42)                               |
 | ckan       | WernhersOldStuff                                              |
 
-## Version 1.9.99.0-adoption `<EDITION>` edition
+## Version 1.9.99.0-adoption `<First Steps>` edition
+
+* 19 Jul 2022  
+* Release for Kerbal Space Program [KSP 1.12.x]
 
 ### Summary
 
 This is the first in a series of updates to this addon.
-Each (pre)release will update some of the parts and patches so I can update the addon in a more manageable way.
+Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
+
+ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
+
+### Parts
+
+* Update
+  * File and Part names
+    * [A4parachute.cfg] -> [wos-parachute-A4.cfg] v1.0.0.0
+    * [AgSrfparachute.cfg] -> [wos-parachute-srf.cfg]v1.0.0.0
+    * [A10toA4Decoupler.cfg] -> [wos-decoupler-A10toA4.cfg] v1.0.0.0
+    * [A10toA6Decoupler.cfg] -> [wos-decoupler-A10toA6.cfg] v1.0.0.0
+    * [A11toA10Decoupler.cfg] -> [wos-decoupler-A11toA10.cfg] v1.0.0.0
+    * [A10-FuelTanks.cfg] -> [wos-A10-tank-dual] v1.0.0.0
+    * [A-10StarterTank] -> [wos-A10-tank-starter] v1.0.0.0
+    * [A-12FuelTank.cfg] -> [wos-A12-tank-dual.cfg] v1.0.0.0
+  * Categories
+* Add
+  * [DRAG_CUBE]
+  * @thumbs/
+* updates #31 - Rename
+* updates #36 - Add part thumbs
+
+### Assets
+
+* Move and Organization 🎨 📁
+  * change mesh = to MODEL
+  * relocate models and textures to /Assets/
+    * internal pointers
+    * naming
+* Remove duplicate textures
+  * [MonoEngineNozzle.dds]
+    * removed duplicate (341kb)
+  * [RedstoneA6-NAA75-110Turbine.dds]
+    * removed duplicate (1.33mb)
+    * removed duplicate (1.33mb)
+  * [A-4Chute.dds]
+    * removed duplicate (1.33mb)
+  * [A-10EngineVaneFrame.dds]
+    * removed duplicate (1.33mb)
+* FX
+  * Removed duplicates
+    * [Circular.tga] (7.6kb)
+    * [particles.tga] (11.5kb)
+* Category Icons
+  * move to SimpleIcons/
+* updates #32 - Assets move and organization 🎨 📁
+
+### Configs
+
+* Create
+  * Resources/[ResourcesGeneric.cfg] v1.0.0.0
+* Move
+  * [bulkheads.cfg] v1.0.0.0 to Configs/
+
+### Compatibility
+
+* Create
+  * [AdvancedJetEngine.cfg] v1.0.0.0
+* Rename
+  * [RealismOverhaulWernhers.cfg] to [RealismOverhaul.cfg]
+  * move to Compatiblity/
+* [RealismOverhaul.cfg] v1.1.0.0
+  * Split
+    * to Resources/[ResourcesGeneric.cfg]
+    * to Compatibility/[AdvancedJetEngine.cfg]
+  * Add
+    * FOR[WernhersOldStuff]
+  * Update
+    * @PART[Wing4A10]:NEEDS[RealismOverhaul]
+      * missing {}
+      * !MODULE[ModuleRCS] {}
+
+* @PART[a2rocketengine]:NEEDS[RealSolarSystem&!RealFuels]
+  * @MODULE[ModuleEngines]
+    * missing closing brace `}`
+
+### Props
+
+* [CamScreen.cfg] WOS_Cam
+  * missing closing brace `}`
+
+### Agents
+
+* add description to [WernhersOldStuff.agent]
+
+### Flags
+
+* relocate flags from Agencies/ to Flags/
+* resize
+  * from 256x160
+  * to 512x320
 
 ### docs/
 
 * Add
   * [Attribution.md] v1.0.6.0
   * [ManualInstallation.md] v1.1.7.0
-  * [404-petunia.md]
   * [404.md] v1.0.3.1
-  * [Disclaimer.md] v1.0.0.0
-  * [HowItWorks.md] v1.1.0.0
   * [LegalMumboJumbo.md] v1.0.5.0
   * [Localizations.md] v1.1.3.1
   * [Marketing.md] v1.0.0.0
   * [Notices.md] v1.0.0.0
   * [Part-Catelog.md] v1.1.4.0
-  * [resourceFlow.md] v1.0.1.0
-  * [Why-not.md]
   * [Why.md] v1.1.0.0
   * [_config.yml]
+* closes #34 - docs/
 
 ### Localization
 
 * Create
   * Localization/
     * <en-us.cfg>
-    * [readme.md] v2.1.1.0
-    * [quickstart.md] v1.0.1.0
-* Updates # - Localization Master
-* Closes # - Localization - English (United States)] <en-us.cfg>
+    * [readme.md] v2.1.2.0
+    * [quickstart.md] v1.0.1.1
+* updates #12 - Localization Master
+* updates #13 - Localization - English <en-us.cfg>
+* updates #30 - Part Localization
+
+### Documentation
+
+* Update
+  * [Readme.md]
+* [WernherOldStuff.version]
+  * remove
+    * [KSP_VERSION_MAX]
 
 ### Status 1.9.99.0
 
 * Issues
-
+  * closes #8 - Wernhers Old Stuff (WOS) 1.9.99.0-adoption `<First Steps>` edition
+  * closes #9 - 1.9.99.0 Verify Legal Mumbo Jumbo
+  * closes #10 - 1.9.99.0 Update Documentation
+  * closes #11 - 1.9.99.0 Social Media
 
 ---
 
