@@ -12,9 +12,13 @@
 
 ## Version 1.9.99.0-adoption `<EDITION>` edition
 
+### Summary
+
+This is the first in a series of updates to this addon.
+Each (pre)release will update some of the parts and patches so I can update the addon in a more manageable way.
+
 ### docs/
 
-* Update
 * Add
   * [Attribution.md] v1.0.6.0
   * [ManualInstallation.md] v1.1.7.0
@@ -41,6 +45,13 @@
     * [quickstart.md] v1.0.1.0
 * Updates # - Localization Master
 * Closes # - Localization - English (United States)] <en-us.cfg>
+
+### Status 1.9.99.0
+
+* Issues
+
+
+---
 
 ## Version 0.19.210115 for Kerbal Space Program 1.11.0
 
