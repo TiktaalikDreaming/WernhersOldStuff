@@ -40,6 +40,14 @@ Each (pre)release will update some of the parts and patches so this addon can be
       * missing {}
       * !MODULE[ModuleRCS] {}
 
+* @PART[a2rocketengine]:NEEDS[RealSolarSystem&!RealFuels]
+  * @MODULE[ModuleEngines]
+    * missing closing brace `}`
+
+### Props
+
+* [CamScreen.cfg] WOS_Cam
+  * missing closing brace `}`
 
 ### docs/
 
