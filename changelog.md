@@ -17,6 +17,12 @@
 This is the first in a series of updates to this addon.
 Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
 
+### Parts
+
+* Update
+  * [A4parachute.cfg] v1.0.0.0
+  * [A10toA4Decoupler.cfg] v1.0.0.0
+
 ### Configs
 
 * Create
