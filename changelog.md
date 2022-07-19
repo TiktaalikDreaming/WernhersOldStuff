@@ -29,6 +29,8 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 * [MonoEngineNozzle.dds]
   * removed duplicate (341kb)
+* [RedstoneA6-NAA75-110Turbine.dds]
+  * removed duplicate (1.33mb)
 
 
 ### Configs
