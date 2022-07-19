@@ -43,6 +43,9 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 * Create
   * Resources/[ResourcesGeneric.cfg] v1.0.0.0
+* Rename
+  * [bulkheads.cfg] to [BulkheadProfileDefinition.cfg] v1.0.0.0]
+  * move to SimpleIcons/
 
 ### Compatibility
 
