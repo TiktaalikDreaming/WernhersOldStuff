@@ -17,12 +17,41 @@
 
 ### Summary
 
-This is the first in a series of updates to this addon.
+This is next in a series of updates to this addon.
 Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
 
 ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
 
 This Release has been reduced by 0.86mb by removing duplicate files.
+
+part name
+  Updated
+    Wing4A12 --> wos-A12-wing
+    A12toA10Decoupler --> wos-decoupler-A12toA10
+  NEW
+    wos-A9-wing
+
+
+
+file name
+  <Wing4A12.cfg> --> <wos-A12-wing.cfg>
+  <part.cfg> --> <wos-decoupler-A12toA10.cfg>
+
+
+model name
+  <NewModel.mu> --> <A12-wing.mu>
+  <NewModel.mu> --> <A9-wing.mu>
+  <NewModel.mu> --> <A12toA10Decoupler.mu>
+
+
+* [ModuleDecouple]
+  * [fxGroupName] = "decouple"
+
+* Remove duplicate textures
+  * [A4EngFrame.dds]
+    * removed duplicate (21.4kb)
+  * [GreenContrlFin.dds]
+    * removed duplicate (21.4kb)
 
 ### Parts
 
