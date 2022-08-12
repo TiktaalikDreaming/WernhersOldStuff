@@ -53,6 +53,9 @@ model name
   * [GreenContrlFin.dds]
     * removed duplicate (21.4kb)
 
+* <WernhersOldStuff.cfg> v1.0.0.0
+  * updates parts with localization strings
+
 ### Parts
 
 * Update
