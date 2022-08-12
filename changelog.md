@@ -12,46 +12,71 @@
 
 ## Version 1.9.99.1-prerelease `<2nd First Steps>` edition
 
-* 19 Jul 2022  
+* 12 Aug 2022  
 * Release for Kerbal Space Program [KSP 1.12.x]
 
-### Summary
+### Summary 1.9.99.1
 
 This is next in a series of updates to this addon.
 Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
 
-ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
+ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
 
-This Release has been reduced by 0.86mb by removing duplicate files.
+This Release has been reduced by mb  (cumulatively .86mb) by removing duplicate files and texture conversions.
 
-part name
-  Updated
-    Wing4A12 --> wos-A12-wing
-    A12toA10Decoupler --> wos-decoupler-A12toA10
-  NEW
-    wos-A9-wing
+### Parts 1.9.99.1
 
-* a6arocketengine --> wos-A6-engine
+* NEW
+  * <wos-A9-wing.cfg> v1.0.0.0
+    * missing part.cfg
+    * textures and model files for the wing part already present in the addon.
+* Update
+  * File and Part anmes
+    * <Wing4A12.cfg> --> <wos-A12-wing.cfg> v1.0.0.0
+      * Wing4A12 --> wos-A12-wing
+    * <part.cfg> --> <wos-decoupler-A12toA10.cfg> v1.0.0.0
+      * A12toA10Decoupler --> wos-decoupler-A12toA10
+    * <part.cfg> --> <wos-redstone-tank.cfg> v1.0.0.0
+      * RedstoneFuelTank --> wos-redstone-tank
+    * <part.cfg> --> <wos-A11-tank.cfg> v1.0.0.0
+      * A-11FuelTank --> wos-A11-tank
+    * <EngineA-6.cfg> --> <wos-A6-engine.cfg> v1.0.0.0
+      * a6arocketengine --> wos-A6-engine
+    * <wos-A10-engine-nv.cfg> --> <Aggregat10\EngineA-10NV.cfg> v1.0.0.0
+      * a10rocketengineNV  --> wos-A10-engine-nv
+    * <wos-A10-engine.cfg> --> <Aggregat10\EngineA-10.cfg> v1.0.0.0
+      * a10rocketengine --> wos-A10-engine
+  * Categories
+  * [breakingForce] was 3400 is now 200/400
+  * [breakingTorque] was 3400 is now 200/400
+  * [ModuleDecouple]
+    * remove "" hitch-hikers
+    * [fxGroupName] = "decouple"
+* Add
+  * [DRAG_CUBE]
+  * @thumbs/
+* updates #31 - Rename
+* updates #36 - Add part thumbs
 
-file name
-  <Wing4A12.cfg> --> <wos-A12-wing.cfg>
-  <part.cfg> --> <wos-decoupler-A12toA10.cfg>
-  <part.cfg> --> <wos-redstone-tank.cfg>
-  <part.cfg> --> <wos-A11-tank.cfg>
-  <EngineA-6.cfg> --> <wos-A6-engine.cfg>
+### Assets
 
-
-model name
-  <NewModel.mu> --> <A12-wing.mu>
-  <NewModel.mu> --> <A9-wing.mu>
-  <NewModel.mu> --> <A12toA10Decoupler.mu>
-  <NewModel.mu> --> <redstone-tank.mu>
-  <NewModel.mu> --> <A11-tank.mu>
-  <NewModel.mu> --> <A6-engine.mu>
-
-* [ModuleDecouple]
-  * [fxGroupName] = "decouple"
-
+* Move and Organization 🎨 📁
+  * change mesh = to MODEL
+  * relocate models and textures to /Assets/
+    * internal pointers
+    * naming
+      * <NewModel.mu> --> <A12-wing.mu>
+      * <NewModel.mu> --> <A9-wing.mu>
+      * <NewModel.mu> --> <A12toA10Decoupler.mu>
+      * <NewModel.mu> --> <redstone-tank.mu>
+      * <NewModel.mu> --> <A11-tank.mu>
+      * <NewModel.mu> --> <A6-engine.mu>
+* Convert textures
+  * .tga/.mbm --> .png
+    * <Aggregat10\A10EngDiff.tga> --> <Aggregat10\A10EngDiff.png>
+      * 12mb --> 4.33mb
+    * <Aggregat10\A10EngSPEC.tga> --> <Aggregat10\A10EngSPEC.png>
+      * 12mb --> 4.33mb
 * Remove duplicate textures
   * [A4EngFrame.dds]
     * removed duplicate (21.4kb)
@@ -66,75 +91,12 @@ model name
     * removed duplicate (1.33mb)
   * [RedstoneA6-NAA75-110SteamExhaust.dds]
     * removed duplicate (1.33mb)
+* updates #32 - Assets move and organization 🎨 📁
 
-
+### Configs 1.9.99.1
 
 * <WernhersOldStuff.cfg> v1.0.0.0
   * updates parts with localization strings
-
-### Parts
-
-* Update
-  * File and Part names
-    * [A4parachute.cfg] -> [wos-parachute-A4.cfg] v1.0.0.0
-  * Categories
-* Add
-  * [DRAG_CUBE]
-  * @thumbs/
-* updates #31 - Rename
-* updates #36 - Add part thumbs
-
-### Assets
-
-* Move and Organization 🎨 📁
-  * change mesh = to MODEL
-  * relocate models and textures to /Assets/
-    * internal pointers
-    * naming
-* Remove duplicate textures
-  * [MonoEngineNozzle.dds]
-    * removed duplicate (341kb)
-  * [RedstoneA6-NAA75-110Turbine.dds]
-    * removed duplicate (1.33mb)
-    * removed duplicate (1.33mb)
-  * [A-4Chute.dds]
-    * removed duplicate (1.33mb)
-  * [A-10EngineVaneFrame.dds]
-    * removed duplicate (1.33mb)
-* FX
-  * Removed duplicates
-    * [Circular.tga] (7.6kb)
-    * [particles.tga] (11.5kb)
-* Category Icons
-  * move to SimpleIcons/
-* updates #32 - Assets move and organization 🎨 📁
-
-### Configs
-
-### Compatibility
-
-
-### Props
-
-### Agents
-
-* add description to [WernhersOldStuff.agent]
-
-### docs/
-
-* Add
-  * [Part-Catelog.md] v1.1.4.0
-
-### Localization
-
-* Create
-  * Localization/
-    * <en-us.cfg>
-    * [readme.md] v2.1.2.0
-    * [quickstart.md] v1.0.1.1
-* updates #12 - Localization Master
-* updates #13 - Localization - English <en-us.cfg>
-* updates #30 - Part Localization
 
 ### Status 1.9.99.1
 
@@ -256,7 +218,7 @@ This Release has been reduced by 0.86mb by removing duplicate files.
   * [Localizations.md] v1.1.3.1
   * [Marketing.md] v1.0.0.0
   * [Notices.md] v1.0.0.0
-  * [Part-Catelog.md] v1.1.4.0
+  * [Part-Catalog.md] v1.1.4.0
   * [Why.md] v1.1.0.0
   * [_config.yml]
 * closes #34 - docs/
