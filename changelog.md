@@ -31,18 +31,23 @@ part name
   NEW
     wos-A9-wing
 
-
+* a6arocketengine --> wos-A6-engine
 
 file name
   <Wing4A12.cfg> --> <wos-A12-wing.cfg>
   <part.cfg> --> <wos-decoupler-A12toA10.cfg>
+  <part.cfg> --> <wos-redstone-tank.cfg>
+  <part.cfg> --> <wos-A11-tank.cfg>
+  <EngineA-6.cfg> --> <wos-A6-engine.cfg>
 
 
 model name
   <NewModel.mu> --> <A12-wing.mu>
   <NewModel.mu> --> <A9-wing.mu>
   <NewModel.mu> --> <A12toA10Decoupler.mu>
-
+  <NewModel.mu> --> <redstone-tank.mu>
+  <NewModel.mu> --> <A11-tank.mu>
+  <NewModel.mu> --> <A6-engine.mu>
 
 * [ModuleDecouple]
   * [fxGroupName] = "decouple"
@@ -52,6 +57,17 @@ model name
     * removed duplicate (21.4kb)
   * [GreenContrlFin.dds]
     * removed duplicate (21.4kb)
+    * removed duplicate (21.4kb)
+  * [RedstoneA6-NAA75-110Turbine.dds]
+    * removed duplicate (1.33mb)
+  * [RedstoneA6-NAA75-110Frame.dds]
+    * removed duplicate (1.33mb)
+  * [RedstoneA6-NAA75-110Nozzle.dds]
+    * removed duplicate (1.33mb)
+  * [RedstoneA6-NAA75-110SteamExhaust.dds]
+    * removed duplicate (1.33mb)
+
+
 
 * <WernhersOldStuff.cfg> v1.0.0.0
   * updates parts with localization strings
