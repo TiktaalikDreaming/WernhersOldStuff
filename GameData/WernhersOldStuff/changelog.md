@@ -10,19 +10,123 @@
 | spacedock  | (https://spacedock.info/mod/42)                               |
 | ckan       | WernhersOldStuff                                              |
 
+## Version 1.9.99.1-prerelease `<2nd First Steps>` edition
+
+* 12 Aug 2022  
+* Release for Kerbal Space Program [KSP 1.12.x]
+
+### Summary 1.9.99.1
+
+This is next in a series of updates to this addon.
+Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
+
+ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
+
+This Release has been reduced by 1.0mb  (cumulatively 1.86mb) by removing duplicate files and texture conversions.
+
+### Parts 1.9.99.1
+
+* NEW
+  * <wos-A9-wing.cfg> v1.0.0.0
+    * EXPERIMENTAL
+    * was only missing part.cfg
+    * textures and model files for the wing part already present in the addon.
+    * NEEDS updating
+* Update
+  * File and Part names
+    * replace `WernhersOldStuff/p` with `WernhersOldStuff/P` 146 times in 30 files
+    * <Wing4A12.cfg> --> <wos-A12-wing.cfg> v1.0.0.0
+      * Wing4A12 --> wos-A12-wing
+    * <part.cfg> --> <wos-decoupler-A12toA10.cfg> v1.0.0.0
+      * A12toA10Decoupler --> wos-decoupler-A12toA10
+    * <part.cfg> --> <wos-redstone-tank.cfg> v1.0.0.0
+      * RedstoneFuelTank --> wos-redstone-tank
+    * <part.cfg> --> <wos-A11-tank.cfg> v1.0.0.0
+      * A-11FuelTank --> wos-A11-tank
+    * <EngineA-6.cfg> --> <wos-A6-engine.cfg> v1.0.0.0
+      * a6arocketengine --> wos-A6-engine
+    * <wos-A10-engine-nv.cfg> --> <Aggregat10\EngineA-10NV.cfg> v1.0.0.0
+      * a10rocketengineNV  --> wos-A10-engine-nv
+    * <wos-A10-engine.cfg> --> <Aggregat10\EngineA-10.cfg> v1.0.0.0
+      * a10rocketengine --> wos-A10-engine
+  * Categories
+  * [breakingForce] was 3400 is now 200/400
+  * [breakingTorque] was 3400 is now 200/400
+  * [ModuleDecouple]
+    * remove "" hitch-hikers
+    * [fxGroupName] = "decouple"
+* Add
+  * [DRAG_CUBE]
+  * @thumbs/
+* updates #31 - Rename
+* updates #36 - Add part thumbs
+* closes #43 - fix `WernhersOldStuff/p`
+
+### Assets 1.9.99.1
+
+* Move and Organization 🎨 📁
+  * change mesh = to MODEL
+  * relocate models and textures to /Assets/
+    * internal pointers
+    * naming
+      * <NewModel.mu> --> <A12-wing.mu>
+      * <NewModel.mu> --> <A9-wing.mu>
+      * <NewModel.mu> --> <A12toA10Decoupler.mu>
+      * <NewModel.mu> --> <redstone-tank.mu>
+      * <NewModel.mu> --> <A11-tank.mu>
+      * <NewModel.mu> --> <A6-engine.mu>
+* Convert textures
+  * .tga/.mbm --> .png
+    * <Aggregat10\A10EngDiff.tga> --> <Aggregat10\A10EngDiff.png>
+      * 12mb --> 4.33mb
+    * <Aggregat10\A10EngSPEC.tga> --> <Aggregat10\A10EngSPEC.png>
+      * 12mb --> 4.33mb
+* Remove duplicate textures
+  * [A4EngFrame.dds]
+    * removed duplicate (21.4kb)
+  * [GreenContrlFin.dds]
+    * removed duplicate (21.4kb)
+    * removed duplicate (21.4kb)
+  * [RedstoneA6-NAA75-110Turbine.dds]
+    * removed duplicate (1.33mb)
+  * [RedstoneA6-NAA75-110Frame.dds]
+    * removed duplicate (1.33mb)
+  * [RedstoneA6-NAA75-110Nozzle.dds]
+    * removed duplicate (1.33mb)
+  * [RedstoneA6-NAA75-110SteamExhaust.dds]
+    * removed duplicate (1.33mb)
+* updates #32 - Assets move and organization 🎨 📁
+
+### Configs 1.9.99.1
+
+* <WernhersOldStuff.cfg> v1.0.0.0
+  * updates parts with localization strings
+
+### Status 1.9.99.1
+
+* Issues
+  * closes #39 - Wernher's Old Stuff (WOS) 1.9.99.1-prerelease `<2nd First Steps>`
+  * closes #40 - 1.9.99.1 Verify Legal Mumbo Jumbo
+  * closes #41 - 1.9.99.1 Update Documentation
+  * closes #42 - 1.9.99.1 Update Social Media
+
+---
+
 ## Version 1.9.99.0-adoption `<First Steps>` edition
 
 * 19 Jul 2022  
 * Release for Kerbal Space Program [KSP 1.12.x]
 
-### Summary
+### Summary 1.9.99.0
 
 This is the first in a series of updates to this addon.
 Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
 
 ghostparts.cfg has been temporarily added to this addon to compensate for parts that were renamed.
 
-### Parts
+This Release has been reduced by 0.86mb by removing duplicate files.
+
+### Parts 1.9.99.0
 
 * Update
   * File and Part names
@@ -41,7 +145,7 @@ ghostparts.cfg has been temporarily added to this addon to compensate for parts 
 * updates #31 - Rename
 * updates #36 - Add part thumbs
 
-### Assets
+### Assets 1.9.99.0
 
 * Move and Organization 🎨 📁
   * change mesh = to MODEL
@@ -66,14 +170,14 @@ ghostparts.cfg has been temporarily added to this addon to compensate for parts 
   * move to SimpleIcons/
 * updates #32 - Assets move and organization 🎨 📁
 
-### Configs
+### Configs 1.9.99.0
 
 * Create
   * Resources/[ResourcesGeneric.cfg] v1.0.0.0
 * Move
   * [bulkheads.cfg] v1.0.0.0 to Configs/
 
-### Compatibility
+### Compatibility 1.9.99.0
 
 * Create
   * [AdvancedJetEngine.cfg] v1.0.0.0
@@ -95,23 +199,23 @@ ghostparts.cfg has been temporarily added to this addon to compensate for parts 
   * @MODULE[ModuleEngines]
     * missing closing brace `}`
 
-### Props
+### Props 1.9.99.0
 
 * [CamScreen.cfg] WOS_Cam
   * missing closing brace `}`
 
-### Agents
+### Agents 1.9.99.0
 
 * add description to [WernhersOldStuff.agent]
 
-### Flags
+### Flags 1.9.99.0
 
 * relocate flags from Agencies/ to Flags/
 * resize
   * from 256x160
   * to 512x320
 
-### docs/
+### docs/ 1.9.99.0
 
 * Add
   * [Attribution.md] v1.0.6.0
@@ -121,12 +225,12 @@ ghostparts.cfg has been temporarily added to this addon to compensate for parts 
   * [Localizations.md] v1.1.3.1
   * [Marketing.md] v1.0.0.0
   * [Notices.md] v1.0.0.0
-  * [Part-Catelog.md] v1.1.4.0
+  * [Part-Catalog.md] v1.1.4.0
   * [Why.md] v1.1.0.0
   * [_config.yml]
 * closes #34 - docs/
 
-### Localization
+### Localization 1.9.99.0
 
 * Create
   * Localization/
@@ -137,7 +241,7 @@ ghostparts.cfg has been temporarily added to this addon to compensate for parts 
 * updates #13 - Localization - English <en-us.cfg>
 * updates #30 - Part Localization
 
-### Documentation
+### Documentation 1.9.99.0
 
 * Update
   * [Readme.md]
