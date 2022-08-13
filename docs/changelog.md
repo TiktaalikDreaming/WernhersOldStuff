@@ -36,16 +36,19 @@ Each (pre)release will update some of the parts and patches so this addon can be
 
 ghostparts.cfg has been updated and temporarily added to this addon to compensate for parts that were renamed.
 
-This Release has been reduced by mb  (cumulatively .86mb) by removing duplicate files and texture conversions.
+This Release has been reduced by 1.0mb  (cumulatively 1.86mb) by removing duplicate files and texture conversions.
 
 ### Parts 1.9.99.1
 
 * NEW
   * <wos-A9-wing.cfg> v1.0.0.0
-    * missing part.cfg
+    * EXPERIMENTAL
+    * was only missing part.cfg
     * textures and model files for the wing part already present in the addon.
+    * NEEDS updating
 * Update
-  * File and Part anmes
+  * File and Part names
+    * replace `WernhersOldStuff/p` with `WernhersOldStuff/P` 146 times in 30 files
     * <Wing4A12.cfg> --> <wos-A12-wing.cfg> v1.0.0.0
       * Wing4A12 --> wos-A12-wing
     * <part.cfg> --> <wos-decoupler-A12toA10.cfg> v1.0.0.0
@@ -71,8 +74,9 @@ This Release has been reduced by mb  (cumulatively .86mb) by removing duplicate 
   * @thumbs/
 * updates #31 - Rename
 * updates #36 - Add part thumbs
+* closes #43 - fix `WernhersOldStuff/p`
 
-### Assets
+### Assets 1.9.99.1
 
 * Move and Organization 🎨 📁
   * change mesh = to MODEL
@@ -115,7 +119,10 @@ This Release has been reduced by mb  (cumulatively .86mb) by removing duplicate 
 ### Status 1.9.99.1
 
 * Issues
-
+  * closes #39 - Wernher's Old Stuff (WOS) 1.9.99.1-prerelease `<2nd First Steps>`
+  * closes #40 - 1.9.99.1 Verify Legal Mumbo Jumbo
+  * closes #41 - 1.9.99.1 Update Documentation
+  * closes #42 - 1.9.99.1 Update Social Media
 
 ---
 
@@ -124,7 +131,7 @@ This Release has been reduced by mb  (cumulatively .86mb) by removing duplicate 
 * 19 Jul 2022  
 * Release for Kerbal Space Program [KSP 1.12.x]
 
-### Summary
+### Summary 1.9.99.0
 
 This is the first in a series of updates to this addon.
 Each (pre)release will update some of the parts and patches so this addon can be updated in a more manageable way.
@@ -133,7 +140,7 @@ ghostparts.cfg has been temporarily added to this addon to compensate for parts 
 
 This Release has been reduced by 0.86mb by removing duplicate files.
 
-### Parts
+### Parts 1.9.99.0
 
 * Update
   * File and Part names
@@ -152,7 +159,7 @@ This Release has been reduced by 0.86mb by removing duplicate files.
 * updates #31 - Rename
 * updates #36 - Add part thumbs
 
-### Assets
+### Assets 1.9.99.0
 
 * Move and Organization 🎨 📁
   * change mesh = to MODEL
@@ -177,14 +184,14 @@ This Release has been reduced by 0.86mb by removing duplicate files.
   * move to SimpleIcons/
 * updates #32 - Assets move and organization 🎨 📁
 
-### Configs
+### Configs 1.9.99.0
 
 * Create
   * Resources/[ResourcesGeneric.cfg] v1.0.0.0
 * Move
   * [bulkheads.cfg] v1.0.0.0 to Configs/
 
-### Compatibility
+### Compatibility 1.9.99.0
 
 * Create
   * [AdvancedJetEngine.cfg] v1.0.0.0
@@ -206,23 +213,23 @@ This Release has been reduced by 0.86mb by removing duplicate files.
   * @MODULE[ModuleEngines]
     * missing closing brace `}`
 
-### Props
+### Props 1.9.99.0
 
 * [CamScreen.cfg] WOS_Cam
   * missing closing brace `}`
 
-### Agents
+### Agents 1.9.99.0
 
 * add description to [WernhersOldStuff.agent]
 
-### Flags
+### Flags 1.9.99.0
 
 * relocate flags from Agencies/ to Flags/
 * resize
   * from 256x160
   * to 512x320
 
-### docs/
+### docs/ 1.9.99.0
 
 * Add
   * [Attribution.md] v1.0.6.0
@@ -237,7 +244,7 @@ This Release has been reduced by 0.86mb by removing duplicate files.
   * [_config.yml]
 * closes #34 - docs/
 
-### Localization
+### Localization 1.9.99.0
 
 * Create
   * Localization/
@@ -248,7 +255,7 @@ This Release has been reduced by 0.86mb by removing duplicate files.
 * updates #13 - Localization - English <en-us.cfg>
 * updates #30 - Part Localization
 
-### Documentation
+### Documentation 1.9.99.0
 
 * Update
   * [Readme.md]
