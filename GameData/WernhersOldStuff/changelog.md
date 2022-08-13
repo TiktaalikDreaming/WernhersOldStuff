@@ -60,6 +60,7 @@ This Release has been reduced by 1.0mb  (cumulatively 1.86mb) by removing duplic
   * @thumbs/
 * updates #31 - Rename
 * updates #36 - Add part thumbs
+* closes #43 - fix `WernhersOldStuff/p`
 
 ### Assets 1.9.99.1
 
