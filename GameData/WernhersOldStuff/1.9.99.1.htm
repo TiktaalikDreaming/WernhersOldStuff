@@ -33,7 +33,165 @@ title="GitHub IO" alt="Pages" /></a></p>
 <b>DO A CLEAN INSTALL:</br> DELETE EXISTING INSTALLATION THEN RE-INSTALL</b></h4><p>Download from <a href="https://www.curseforge.com/kerbal/ksp-mods/WernhersOldStuff/files">CurseForge</a></p></div>
 
 <h2 id="changes">Changes</h2>
-<h3 id="summary">Summary</h3>
+<h3 id="summary-19991">Summary 1.9.99.1</h3>
+<p>This is next in a series of updates to this addon. Each (pre)release
+will update some of the parts and patches so this addon can be updated
+in a more manageable way.</p>
+<p>ghostparts.cfg has been updated and temporarily added to this addon
+to compensate for parts that were renamed.</p>
+<p>This Release has been reduced by 1.0mb (cumulatively 1.86mb) by
+removing duplicate files and texture conversions.</p>
+<h3 id="parts-19991">Parts 1.9.99.1</h3>
+<ul>
+<li>NEW
+<ul>
+<li>&lt;wos-A9-wing.cfg&gt; v1.0.0.0
+<ul>
+<li>EXPERIMENTAL</li>
+<li>was only missing part.cfg</li>
+<li>textures and model files for the wing part already present in the
+addon.</li>
+<li>NEEDS updating</li>
+</ul></li>
+</ul></li>
+<li>Update
+<ul>
+<li>File and Part names
+<ul>
+<li>replace <code>WernhersOldStuff/p</code> with
+<code>WernhersOldStuff/P</code> 146 times in 30 files</li>
+<li>&lt;Wing4A12.cfg&gt; --&gt; &lt;wos-A12-wing.cfg&gt; v1.0.0.0
+<ul>
+<li>Wing4A12 --&gt; wos-A12-wing</li>
+</ul></li>
+<li>&lt;part.cfg&gt; --&gt; &lt;wos-decoupler-A12toA10.cfg&gt; v1.0.0.0
+<ul>
+<li>A12toA10Decoupler --&gt; wos-decoupler-A12toA10</li>
+</ul></li>
+<li>&lt;part.cfg&gt; --&gt; &lt;wos-redstone-tank.cfg&gt; v1.0.0.0
+<ul>
+<li>RedstoneFuelTank --&gt; wos-redstone-tank</li>
+</ul></li>
+<li>&lt;part.cfg&gt; --&gt; &lt;wos-A11-tank.cfg&gt; v1.0.0.0
+<ul>
+<li>A-11FuelTank --&gt; wos-A11-tank</li>
+</ul></li>
+<li>&lt;EngineA-6.cfg&gt; --&gt; &lt;wos-A6-engine.cfg&gt; v1.0.0.0
+<ul>
+<li>a6arocketengine --&gt; wos-A6-engine</li>
+</ul></li>
+<li>&lt;wos-A10-engine-nv.cfg&gt; --&gt;
+&lt;Aggregat10\EngineA-10NV.cfg&gt; v1.0.0.0
+<ul>
+<li>a10rocketengineNV --&gt; wos-A10-engine-nv</li>
+</ul></li>
+<li>&lt;wos-A10-engine.cfg&gt; --&gt; &lt;Aggregat10\EngineA-10.cfg&gt;
+v1.0.0.0
+<ul>
+<li>a10rocketengine --&gt; wos-A10-engine</li>
+</ul></li>
+</ul></li>
+<li>Categories</li>
+<li>[breakingForce] was 3400 is now 200/400</li>
+<li>[breakingTorque] was 3400 is now 200/400</li>
+<li>[ModuleDecouple]
+<ul>
+<li>remove "" hitch-hikers</li>
+<li>[fxGroupName] = "decouple"</li>
+</ul></li>
+</ul></li>
+<li>Add
+<ul>
+<li>[DRAG_CUBE]</li>
+<li>@thumbs/</li>
+</ul></li>
+<li>updates #31 - Rename</li>
+<li>updates #36 - Add part thumbs</li>
+<li>closes #43 - fix <code>WernhersOldStuff/p</code></li>
+</ul>
+<h3 id="assets-19991">Assets 1.9.99.1</h3>
+<ul>
+<li>Move and Organization 🎨 📁
+<ul>
+<li>change mesh = to MODEL</li>
+<li>relocate models and textures to /Assets/
+<ul>
+<li>internal pointers</li>
+<li>naming
+<ul>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A12-wing.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A9-wing.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A12toA10Decoupler.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;redstone-tank.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A11-tank.mu&gt;</li>
+<li>&lt;NewModel.mu&gt; --&gt; &lt;A6-engine.mu&gt;</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Convert textures
+<ul>
+<li>.tga/.mbm --&gt; .png
+<ul>
+<li>&lt;Aggregat10\A10EngDiff.tga&gt; --&gt;
+&lt;Aggregat10\A10EngDiff.png&gt;
+<ul>
+<li>12mb --&gt; 4.33mb</li>
+</ul></li>
+<li>&lt;Aggregat10\A10EngSPEC.tga&gt; --&gt;
+&lt;Aggregat10\A10EngSPEC.png&gt;
+<ul>
+<li>12mb --&gt; 4.33mb</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>Remove duplicate textures
+<ul>
+<li>[A4EngFrame.dds]
+<ul>
+<li>removed duplicate (21.4kb)</li>
+</ul></li>
+<li>[GreenContrlFin.dds]
+<ul>
+<li>removed duplicate (21.4kb)</li>
+<li>removed duplicate (21.4kb)</li>
+</ul></li>
+<li>[RedstoneA6-NAA75-110Turbine.dds]
+<ul>
+<li>removed duplicate (1.33mb)</li>
+</ul></li>
+<li>[RedstoneA6-NAA75-110Frame.dds]
+<ul>
+<li>removed duplicate (1.33mb)</li>
+</ul></li>
+<li>[RedstoneA6-NAA75-110Nozzle.dds]
+<ul>
+<li>removed duplicate (1.33mb)</li>
+</ul></li>
+<li>[RedstoneA6-NAA75-110SteamExhaust.dds]
+<ul>
+<li>removed duplicate (1.33mb)</li>
+</ul></li>
+</ul></li>
+<li>updates #32 - Assets move and organization 🎨 📁</li>
+</ul>
+<h3 id="configs-19991">Configs 1.9.99.1</h3>
+<ul>
+<li>&lt;WernhersOldStuff.cfg&gt; v1.0.0.0
+<ul>
+<li>updates parts with localization strings</li>
+</ul></li>
+</ul>
+<h3 id="status-19991">Status 1.9.99.1</h3>
+<ul>
+<li>Issues
+<ul>
+<li>closes #39 - Wernher's Old Stuff (WOS) 1.9.99.1-prerelease
+<code>&lt;2nd First Steps&gt;</code></li>
+<li>closes #40 - 1.9.99.1 Verify Legal Mumbo Jumbo</li>
+<li>closes #41 - 1.9.99.1 Update Documentation</li>
+<li>closes #42 - 1.9.99.1 Update Social Media</li>
+</ul></li>
+</ul>
 <hr />
 <h2 id="see-more">See More</h2>
 <ul>
