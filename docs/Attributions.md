@@ -24,15 +24,14 @@ updated: 03 Jun 2022
 ### Credits
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/93697-*/"><img border="0" alt="dtobi" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/set_resources_17/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" width="50" height="50" > DaMichel</a> for creating <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/" alt="DaMichel Ltd (KM)"> the DaMichel series of parts addons!</a></li>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/81209-*/"><img border="0" alt="Bezzier" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/set_resources_17/84c1e40ea0e759e3f1505eb1788ddf3c_default_photo.png" width="50" height="50" > Bezzier</a> for picking up where DaMichel left off (Color Curves)</li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/136290-*/"><img alt="TiktaalikDreaming" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_11_2015/6c44b9f9-8ac1-472b-ad78-5887f192a6f9.jpeg.3591d30b9c669113553d80c1c5d14bb7.thumb.jpeg.03b868987d729586ad8f581f3222b5dd.jpeg" width="50" height="50" > TiktaalikDreaming</a> for creating <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/" alt="Wernher's Old Stuff (WOS)"> Wernher's Old Stuff (WOS)</a> parts addon!</li>
   <li><i>Thank you to everyone who gave feedback! It's very important for me and highly appreciated.</i></li>
 </ul>
 
 ### Flag(s)
 
 <ul>
-  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/"><img border="0" alt="zer0Kerbal" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2018_08/free-clipart-hithhikers-guide-14.thumb.jpg.05fc7d1bdc37ce2bfca8923bf1e97303.jpg" width="50" height="50" > zer0Kerbal</a></li>
+  <li><a href="https://forum.kerbalspaceprogram.com/index.php?/profile/136290-*/"><img border="0" alt="TiktaalikDreaming" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_11_2015/6c44b9f9-8ac1-472b-ad78-5887f192a6f9.jpeg.3591d30b9c669113553d80c1c5d14bb7.thumb.jpeg.03b868987d729586ad8f581f3222b5dd.jpeg" width="50" height="50" > TiktaalikDreaming</a></li>
 </ul>
 
 ### Agency
@@ -52,7 +51,7 @@ updated: 03 Jun 2022
 ### Translations
 
 <ul>
-  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png " alt="English" style="zoom:150%;" /> English</li>
+  <li><img src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/EN.png " alt="English" style="zoom:100%;" /> English</li>
   <li><small>Additions and corrections welcome!</small></li>
 </ul>
 
@@ -68,10 +67,9 @@ updated: 03 Jun 2022
 </ul>
 
 <!-- links -->
-[DML]: https://forum.kerbalspaceprogram.com/index.php?/topic/208107-*/ "DaMichel Ltd Forum Thread"
+[WOS]: https://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/ "Forum Thread"
 
-[damichel]: https://forum.kerbalspaceprogram.com/index.php?/profile/93697-*/ "damichel"
-[bezzier]: https://forum.kerbalspaceprogram.com/index.php?/profile/81209-*/ "Bezzier"
+[tiktaalikdreaming]: https://forum.kerbalspaceprogram.com/index.php?/profile/136290-*/ "TiktaalikDreaming"  
 [cptkipard]: https://forum.kerbalspaceprogram.com/index.php?/profile/70516-*/ "Captain Kipard"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
