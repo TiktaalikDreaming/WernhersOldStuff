@@ -237,7 +237,7 @@ parts, config, flags, agency
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[tiktaalikdreaming]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "TiktaalikDreaming"  
+[tiktaalikdreaming]: https://forum.kerbalspaceprogram.com/index.php?/profile/136290-*/ "TiktaalikDreaming"  
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 ---
