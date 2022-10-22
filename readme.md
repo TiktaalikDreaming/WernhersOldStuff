@@ -1,12 +1,12 @@
-<!-- readme.md v1.6.9.2
-Wernhers Old Stuff (WOS)
+<!-- readme.md v1.6.9.9
+Wernher's Old Stuff (WOS)
 created: 17 Jul 2017
-updated: 05 Jul 2022 -->
+updated: 04 Oct 2022 -->
 
 <!--this file: CC BY-ND 4.0 by zer0Kerbal-->
 
-[![Wernher's Old Stuff][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
-[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][CKAN:shd]][CKAN:url]   
+[![Wernher's Old Stuff (WOS)][MOD:shd:latest]][MOD:forum] [![KSP version][KSP:shd]][KSP:url]  [![License][LIC:shd]][LIC:url]  
+[![Curseforge][CURSFG:shd]][CURSFG:url] [![GitHub][GITHUB:shd]][GITHUB:url] [![SpaceDock][SPCDCK:shd]][SPCDCK:url] [![CKAN][ckan:shd]][ckan:url]   
 [![Pages][MOD:pages:shd]][MOD:pages]
 
 
@@ -40,16 +40,14 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 ### See More
 
-* See our [Parts Catalog][MOD:parts] for part pictures
-* For more images, see our [Marketing Slicks][MOD:markt]
-* Discussions and news on this mod: See [Discussions][MOD:discu] or [KSP Forums][MOD:forum]
-* Changelog Summary for more details of changes: See [ChangeLog][MOD:chlog]
-* Known Issues for more details of feature requests and known issues : See [Known Issues][MOD:issue]
-* GitHub Pages : See [Pages][MOD:pages]
+>* [GitHub Pages][MOD:pages]
+>* [Marketing Slicks][MOD:markt]
+>* [Parts Catalog][MOD:parts] for part pictures
+>* [Discussions][MOD:discu] or [KSP Forums][MOD:forum] for discussions and news
+>* [ChangeLog][MOD:chlog] for more details of changes
+>* [Known Issues][MOD:issue] for more details of feature requests and known issues
 
 ---
-
-![Hero Image][IMG:hero:0]
 
 ### Youtube review by [`Kottabos Gaming`](https://forum.kerbalspaceprogram.com/index.php?/profile/36583-*/)
 
@@ -61,6 +59,7 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 > * Contracts for these glorious parts
 > * Variant Textures
 > * Model updates to Unity 2019
+> * Marketing Images and Videos such as hero shots, animated gifs, short highlights
 > * Have a request? Glad to have them, kindly submit through [GitHub][MOD:issue].
 
 ---
@@ -79,12 +78,9 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 ***Use***
   CurseForge/OverWolf App (currently does not install dependencies)  
 
-  <a href="https://download.curseforge.com/">
-    <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="15%" height="15%">
-</a>
+  <a href="https://download.curseforge.com/"> <img src="https://www.overwolf.com/brand-guidelines/img/logo2.svg" alt="CurseForge/OverWolf App" width="25%" height="25%"></a>
 
-Whilst I agree CKAN is a great mod for those that can't use zip tools. I take no part, nor am I interested in maintaining the CKAN mod metadata for my mods.
-Please don't ask me about it but refer to the CKAN mod thread if you are having issues with CKAN or the metadata it maintains. Beware, CKAN *can* really mess up though it tries very, very, very hard not to.
+I take no part, nor am I interested in maintaining the [CKAN][ckan:url] mod metadata for my mods. [CKAN][ckan:url] is a great mod for those that can't use zip tools. If you are having issues please let the [CKAN][ckan:url] people know and refer to the [CKAN][ckan:url] thread. My support of [CKAN][ckan:url] extends as far as me checking the checkbox in Spacedock when I upload. Beware, [CKAN][ckan:url] *can* really mess up though it tries very, very, very hard not to.
 
 or [![CKAN][CKAN:img]][CKAN:url]
 
@@ -94,8 +90,8 @@ or [![CKAN][CKAN:img]][CKAN:url]
 
 ### Suggests
 
-* [On Demand Fuel Cells (ODFC)][ODFC]
 * [GPO (Goo Pumps & Oils') Speed Pump (GPO)][GPO]
+* [On Demand Fuel Cells (ODFC)][ODFC]
 * [TweakScale][twk]
 
 ### Supports
@@ -141,18 +137,20 @@ parts, config, flags, agency
 
 ---
 
-### How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
+### DONATIONS: How to support this and other great mods by [`zer0Kerbal`][zer0Kerbal]  
+
+> ***Completely voluntary, absolutely amazing, and really does help me out a lot!***
+> quote from <a href="https://forum.kerbalspaceprogram.com/index.php?/profile/32393-*/"><img border="0" alt="cybutek" src="https://kerbal-forum-uploads.s3.us-west-2.amazonaws.com/monthly_2020_06/kappa-kerbal-anarchy.thumb.png.673a2f6f7b36cc60a35c24efef217246.png" width="25px" height="25px"> cybutek</a> creator of <a href="https://forum.kerbalspaceprogram.com/index.php?/topic/17833-130-*/" alt="Kerbal Engineer Redux (KER)"> Kerbal Engineer</a>
 
 [![Support][PAYPAL:img]][PAYPAL:url] [![Github Sponsor][GSPONS:img]][GSPONS:url] [![Patreon][PATREON:img]][PATREON:url] [![Buy zer0Kerbal a snack][BMCC:img]][BMCC:url]
 
+*and it is true.*
 <!-- mod links -->
 [MOD:attr]: https://zer0kerbal.github.io/WernhersOldStuff/Attributions "Attribution"
 [MOD:chlog]: https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/changelog.md  "Changelog"
-[MOD:contr]: https://github.com/zer0Kerbal/.github/blob/master/.github/CONTRIBUTING.md "Contributing"
 [MOD:discu]: https://github.com/zer0Kerbal/WernhersOldStuff/discussions "Discussions"
 [MOD:forum]: https://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/ "WernhersOldStuff Forum Thread"
 [MOD:issue]: https://github.com/zer0Kerbal/WernhersOldStuff/issues "Issues"
-[MOD:licns]: https://github.com/zer0Kerbal/WernhersOldStuff/blob/master/LICENSE "Github License"
 [MOD:markt]: https://zer0kerbal.github.io/WernhersOldStuff/Marketing "Marketing Slicks"
 [MOD:notic]: https://zer0kerbal.github.io/WernhersOldStuff/Notices "Notices"
 [MOD:parts]: https://zer0kerbal.github.io/WernhersOldStuff/PartsCatalog "Parts Catalog"
@@ -160,7 +158,6 @@ parts, config, flags, agency
 
 <!--- mod -->
 [MOD:shd:latest]: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/json/mod.json
-
 [MOD:pages:shd]: https://img.shields.io/badge/GitHub-Pages-white?style=plastic&labelColor=9cf&logoColor=181717&logo=github "GitHub IO"
 
 <!--- mod provenance -->
@@ -202,8 +199,6 @@ parts, config, flags, agency
 [mml]: https://github.com/net-lisias-ksp/ModuleManager "Module Manager /L"
 [twk]: https://forum.kerbalspaceprogram.com/index.php?/topic/179030-*/ "TweakScale"
 [GPO]: https://forum.kerbalspaceprogram.com/index.php?/topic/207732-*/ "GPO SpeedPump (GPO)"
-[mas]:  https://forum.kerbalspaceprogram.com/index.php?/topic/160856-*/ "MOARdV's Avionics System"
-[rpm]: https://forum.kerbalspaceprogram.com/index.php?/topic/105821-*/ "Raster Prop Monitor"
 
 <!-- financial support -->
 [PAYPAL:img]: https://img.shields.io/badge/Buy%20me%20some%20-LFO-BADA55?style=for-the-badge&logo=paypal&labelColor=FFDD00/ "PayPal"
@@ -242,12 +237,8 @@ parts, config, flags, agency
 [twitter]: https://twitter.com/zer0Kerbal
 [youtube]: https://www.youtube.com/channel/UCp9c8IaK4Gjgfj3O9QxrbDw
 
-[sagesagan]: https://forum.kerbalspaceprogram.com/index.php?/profile/102159-*/ "Sage Sagan"
-[blackheart]: https://forum.kerbalspaceprogram.com/index.php?/profile/42741-*/ "Blackheart612"
 [tiktaalikdreaming]: https://forum.kerbalspaceprogram.com/index.php?/profile/103696-*/ "TiktaalikDreaming"  
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
-
-[IMG:flg:0]: https://via.placeholder.com/256x160png/ffffff/bada55?text=KGEx "Mini Sample Return Capsule Flag"
 
 ---
 
@@ -255,9 +246,15 @@ parts, config, flags, agency
 
 Track progress: issues [here][MOD:issue] and projects [here](https://github.com/zer0Kerbal/WernhersOldStuff/Projects/) along with **[The Short List](https://github.com/users/zer0Kerbal/projects/27)**
 
-[<img align="left" alt="zer0Kerbal | kerbalspaceprogram.com" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/32/kerbalspaceprogram_93898.png" />][zer0Kerbal] [<img align="left" alt="zer0Kerbal | CurseForge" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/curseforge.svg" />][curseforge] [<img align="left" alt="zer0Kerbal | reddit" width="32px" src="https://cdn.icon-icons.com/icons2/1945/PNG/512/iconfinder-reddit-4661631_122483.png" />][reddit] [<img align="left" alt="zer0Kerbal | Patreon" width="32px" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/patreon_logo_icon_147253.png" />][PATREON:url] [<img align="left" alt="zer0Kerbal | YouTube" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Youtube_icon-icons.com_66802.png" />][youtube] [<img align="left" alt="zer0Kerbal | Twitch" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/twitch_logo_icon_170383.png" />][twitch] [<img align="left" alt="zer0Kerbal | PayPal" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/paypal_logo_icon_168055.png" />][PAYPAL:url] [<img align="left" alt="zer0Kerbal | Buy Me a Coffee" width="32px" src="https://www.buymeacoffee.com/assets/img/bmc-meta-new/new/favicon.ico" />][BMCC:url] [<img align="left" alt="zer0Kerbal | Twitter" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/32/Twitter_icon-icons.com_66803.png" />][twitter]
+[<img align="left" alt="zer0Kerbal | kerbalspaceprogram.com" width="32px" src="https://cdn.icon-icons.com/icons2/1381/PNG/32/kerbalspaceprogram_93898.png" />][zer0Kerbal] [<img align="left" alt="zer0Kerbal | CurseForge" width="32px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/curseforge.svg" />][curseforge] [<img align="left" alt="zer0Kerbal | reddit" width="32px" src="https://cdn.icon-icons.com/icons2/1945/PNG/512/iconfinder-reddit-4661631_122483.png" />][reddit] [<img align="left" alt="zer0Kerbal | Patreon" width="32px" src="https://cdn.icon-icons.com/icons2/2429/PNG/512/patreon_logo_icon_147253.png" />][PATREON:url] [<img align="left" alt="zer0Kerbal | YouTube" width="32px" src="https://cdn.icon-icons.com/icons2/836/PNG/512/Youtube_icon-icons.com_66802.png" />][youtube] [<img align="left" alt="zer0Kerbal | Twitch" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/twitch_logo_icon_170383.png" />][twitch] [<img align="left" alt="zer0Kerbal | PayPal" width="32px" src="https://cdn.icon-icons.com/icons2/2699/PNG/512/paypal_logo_icon_168055.png" />][PAYPAL:url] [<img align="left" alt="zer0Kerbal | Buy Me a Coffee" width="32px" src="https://www.buymeacoffee.com/assets/img/bmc-meta-new/new/favicon.ico" />][BMCC:url] [<img align="left" alt="zer0Kerbal | Twitter" width="32px" src="https://raw.githubusercontent.com/zer0Kerbal/zer0Kerbal/master/img/twitter-32.ico" />][twitter]</br>
+
+##### Release Schedule
+
+1. GitHub, reaching first manual installers and users of KSP-AVC. Right now.
+2. CurseForge. Right now.
+3. SpaceDock (and CKAN users). Soon™
 
 <!-- footnotes -->
-[^1]: this isn't a mod. ;P
-[^2]: ***may*** work on other versions (YMMV)
-[^3]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*
+[^1]: this isn't a mod. ;P  
+[^2]: ***may*** work on other versions (YMMV)  
+[^3]: *Be Kind: Lithobrake, not jakebrake! Keep your Module Manager up to date!*  
