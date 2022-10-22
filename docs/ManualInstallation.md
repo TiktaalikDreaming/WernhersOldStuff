@@ -5,10 +5,10 @@ description: the flat-pack Kiea instructions, written in Kerbalese, unusally pre
 tags: installation,directions,page,kerbal,ksp,zer0Kerbal,zedK
 ---
 
-<!-- ManualInstallation.md v1.1.7.0
+<!-- ManualInstallation.md v1.1.8.1
 Wernher's Old Stuff (WOS)
 created: 01 Oct 2019
-updated: 18 Apr 2022 -->
+updated: 29 Jul 2022 -->
 
 <!-- based upon work by Lisias -->
 
@@ -28,7 +28,7 @@ You should be all good! (check for latest version on CurseForge)
 
 To install, place the `WernhersOldStuff` folder inside your Kerbal Space Program's GameData folder:
 
-* **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**, including any other fork:
+* **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
   * Delete `<KSP_ROOT>/GameData/WernhersOldStuff`
 * Extract the package's `WernhersOldStuff/` folder into your KSP's GameData folder as follows:
   * `<PACKAGE>/WernhersOldStuff` --> `<KSP_ROOT>/GameData`
@@ -39,7 +39,7 @@ To install, place the `WernhersOldStuff` folder inside your Kerbal Space Program
 
 To install, place the `GameData` folder inside your Kerbal Space Program folder:
 
-* **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**, including any other fork:
+* **REMOVE ANY OLD VERSIONS OF THE PRODUCT BEFORE INSTALLING**
   * Delete `<KSP_ROOT>/GameData/WernhersOldStuff`
 * Extract the package's `GameData` folder into your KSP's root folder as follows:
   * `<PACKAGE>/GameData` --> `<KSP_ROOT>`
@@ -65,11 +65,13 @@ To install, place the `GameData` folder inside your Kerbal Space Program folder:
       + [Parts]
         ...
       * #.#.#.#.htm
-      * changelog.md
       * CC-BY-SA-4.0.txt
+      * changelog.md
+        ManualInstallation.htm
       * readme.htm
       * WernhersOldStuff.version
     ...
+    * ModuleManager.ConfigCache
   * KSP.log
   ...
 ```
