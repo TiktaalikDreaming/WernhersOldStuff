@@ -252,7 +252,7 @@ This Release has been reduced by 0.86mb by removing duplicate files.
 ### Status 1.9.99.0
 
 * Issues
-  * closes #8 - Wernhers Old Stuff (WOS) 1.9.99.0-adoption `<First Steps>` edition
+  * closes #8 - Wernher's Old Stuff (WOS) 1.9.99.0-adoption `<First Steps>` edition
   * closes #9 - 1.9.99.0 Verify Legal Mumbo Jumbo
   * closes #10 - 1.9.99.0 Update Documentation
   * closes #11 - 1.9.99.0 Social Media
