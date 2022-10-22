@@ -17,7 +17,7 @@ repository:
   homepage: http://forum.kerbalspaceprogram.com/index.php?/topic/207233-*/
   
   # A comma-separated list of topics to set on the repository
-  topics: rockets,wernher,werhners-old-stuff,werhners-old-bits,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods,zedk,contributions-welcome,hacktoberfest,mods
+  topics: rockets,wernher,werhners-old-stuff,werhners-old-bits,werner-odd-bits,kerbal,kerbalspaceprogram,ksp,ksp-mods,ksp-parts,kerbal-space,kerbal-space-program,kerbal-mods,zedk,contributions-welcome,hacktoberfest,mods
   
 # Labels: define labels for Issues and Pull Requests
 labels:
