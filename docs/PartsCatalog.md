@@ -24,12 +24,23 @@ This add-on adds early history themed parts
 ---
 
 * Mallet *(Only with Kerbal Inventory System installed)*
-* SurveyStake
 
-  <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ElMallet_icon.png" alt="Mallet" width="25%" height="25%" /> <img src="https://raw.githubusercontent.com/zer0Kerbal/MOD-NAME/master/GameData/MOD-NAME/Parts/%40thumbs/ELSurveyStake_icon.png" alt="SurveyStake" width="25%" height="25%" />
-
-* MicroPad
-* OrbitalDock
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-redstone-tank_icon.png" alt="redstone-tank" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A6-engine_icon.png" alt="A6-engine" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A9-wing_icon.png" alt="A9-wing" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A10-engine_icon.png" alt="A10-engine" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A10-engine-nv_icon.png" alt="A10-engine-nv" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A10-tank-dual_icon.png" alt="A10-tank-dual" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A10-tank-starter_icon.png" alt="A10-tank-starter" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A11-tank_icon.png" alt="A11-tank" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A12-tank-dual_icon.png" alt="A12-tank-dual" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-A12-wing_icon.png" alt="A12-wing" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-decoupler-A10toA4_icon.png" alt="decoupler-A10toA4" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-decoupler-A10toA6_icon.png" alt="decoupler-A10toA6" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-decoupler-A11toA10_icon.png" alt="decoupler-A11toA10" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-decoupler-A12toA10_icon.png" alt="decoupler-A12toA10" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-parachute-A4_icon.png" alt="parachute-A4" width="25%" height="25%" />
+<img src="https://raw.githubusercontent.com/zer0Kerbal/WernhersOldStuff/master/docs/%40thumbs/wos-parachute-srf_icon.png" alt="parachute-srf" width="25%" height="25%" />
 
 ---
 
